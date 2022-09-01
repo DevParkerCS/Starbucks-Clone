@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 7.8rem;
+    margin-top: .7rem;
+}
+
+.navbar-left>* {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar-left>div:hover {
+    color: green;
+}
+
+.navbar-left div {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 15rem;
+    margin-top: .7rem;
+    word-spacing: 3px;
+}
+
+.navbar-right>* {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.sign-in {
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.sign-in:hover {
+    background-color: rgb(211, 211, 211, .3);
+}
+
+.join-now {
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.location-img {
+    width: 20px;
+}
+
+.find-store-btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.find-store {
+    padding-left: 6px;
+}
+
+.find-store-btn:hover {
+    color: rgb(1, 161, 1);
+}
+
+.join-now:hover {
+    transition: background-color .4s;
+    background-color: rgba(54, 54, 54);
+}

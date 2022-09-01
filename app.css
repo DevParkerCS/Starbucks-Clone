@@ -1,0 +1,160 @@
+.section {
+    margin-top: 2rem;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-wrapper {
+    border-bottom: 2px solid lightgray;
+}
+
+.sect-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(3, 172, 141, 0.25);
+    width: 38%;
+    vertical-align: middle;
+    word-spacing: 3px;
+    line-height: 32px;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.section-img {
+    width: 38%;
+}
+
+.sect-btn {
+    transition: background-color .2s;
+    width: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.sect-btn:hover {
+    transition: background-color .4s;
+    background-color: rgba(120, 120, 120, 0.1);
+}
+
+.white-btn:hover {
+    transition: background-color .4s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.green {
+    background-color: #006241;
+}
+
+.big-title {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 60px;
+    letter-spacing: 3px;
+}
+
+.big-sect {
+    width: 550px;
+    padding: 0px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.white-btn {
+    border-color: white;
+    color: white;
+    width: 120px;
+}
+
+.footer-wrapper {
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid lightgray;
+    margin-left: 12%;
+    width: 76%;
+}
+
+.list {
+    list-style: none;
+    margin-top: 1.5rem;
+    width: 200px;
+    font-size: 1.1rem;
+
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    opacity: .8;
+}
+
+.li {
+    margin-left: 0;
+    text-align: left;
+    opacity: .8;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.li:hover {
+    opacity: 1;
+}
+
+.footer-section {
+    margin-right: 2rem;
+}
+
+.privacy-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.image-wrapper>img {
+    width: 35px;
+    margin-right: 14px;
+}
+
+.image-wrapper {
+    width: 76%;
+}
+
+.terms-conditions {
+    width: 76%;
+    display: flex;
+    margin-top: 1.8rem;
+}
+
+.terms-conditions>* {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.terms-conditions>*:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    width: 76%;
+    margin-top: 1.8rem;
+    word-spacing: 3px;
+    opacity: .8;
+}
